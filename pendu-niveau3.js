@@ -44,7 +44,7 @@ function motAleatoire (){
             mot = mot.toUpperCase();;
             break;
         default:
-            throw new Error('Une erreur est survenue, on relance la machine');
+            throw new Error('Bon, Pas de bol, ca plante, aller on relance');
     }
 }
 
